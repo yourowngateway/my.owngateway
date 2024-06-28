@@ -83,7 +83,7 @@ Welcome to the standard process for raising a Pull Request (PR) directly from a 
 
    - Clone the main repository to your local machine using the following command:
      ```bash
-     git clone https://github.com/juspay/hyperswitch-control-center.git
+     git clone https://github.com/yourowngateway/owngateway-control-center.git
      ```
 
 2. **Create a New Branch**:

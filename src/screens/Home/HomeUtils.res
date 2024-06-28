@@ -305,7 +305,7 @@ module DevResources = {
               buttonSize={Small}
               onClick={_ => {
                 mixpanelEvent(~eventName=`contribute_in_open_source`, ())
-                "https://github.com/juspay/hyperswitch"->Window._open
+                "https://github.com/yourowngateway/owngateway"->Window._open
               }}
             />
           </CardFooter>

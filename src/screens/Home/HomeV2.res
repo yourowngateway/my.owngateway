@@ -195,7 +195,7 @@ module QuickStart = {
         <div className="flex flex-col gap-2">
           <p className={getTextClass((H2, Optional))}> {"Quick Start"->React.string} </p>
           <p className=subtextStyle>
-            {"Configure and start using Hyperswitch to get an overview of our offerings and how hyperswitch can help you control your payments"->React.string}
+            {"Configure and start using OwnGateway to get an overview of our offerings and how owngateway can help you control your payments"->React.string}
           </p>
         </div>
         <HomePageHorizontalStepper stepperItemsArray=HomeUtils.homepageStepperItems />
@@ -317,7 +317,7 @@ module Resources = {
         id: "tryTheDemo",
         icon: "docs.svg",
         headerText: "Try a test payment",
-        subText: "Experience the Hyperswitch Unified checkout using test credentials",
+        subText: "Experience the OwnGateway Unified checkout using test credentials",
         redirectLink: "",
         access: userPermissionJson.operationsManage,
       },
@@ -342,7 +342,7 @@ module Resources = {
     let onClickHandler = item => {
       if item.id === "openSource" {
         mixpanelEvent(~eventName=`contribute_in_open_source`, ())
-        "https://github.com/juspay/hyperswitch"->Window._open
+        "https://github.com/yourowngateway/owngateway"->Window._open
       } else if item.id === "developerdocs" {
         mixpanelEvent(~eventName=`dev_docs`, ())
         "https://hyperswitch.io/docs"->Window._open

@@ -24,7 +24,7 @@ Follow these simple steps to set up Hyperswitch on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/juspay/hyperswitch-control-center.git
+   git clone https://github.com/yourowngateway/owngateway-control-center.git
    ```
 
 2. Navigate to the project directory:
@@ -258,7 +258,7 @@ For this step you would need the following from your AWS account
 
 You can create or manage your access keys from the Security Credentials tab inside your AWS Console. For more information, [click here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
 
-![image](https://github.com/juspay/hyperswitch-control-center/assets/126671331/eda911ec-ae09-49be-99ca-3b32f262be9b)
+![image](https://github.com/yourowngateway/owngateway-control-center/assets/126671331/eda911ec-ae09-49be-99ca-3b32f262be9b)
 
 Once you have the keys run the below command
 
@@ -380,7 +380,7 @@ Welcome to the standard process for raising a Pull Request (PR) directly from a 
 
    - Clone the main repository to your local machine using the following command:
      ```bash
-     git clone https://github.com/juspay/hyperswitch-control-center.git
+     git clone https://github.com/yourowngateway/owngateway-control-center.git
      ```
 
 2. **Create a New Branch**:

@@ -23,8 +23,8 @@ type hostType = Live | Sandbox | Local | Netlify
 let hostName = Window.Location.hostname
 
 let hostType = switch hostName {
-| "live.hyperswitch.io" => Live
-| "app.hyperswitch.io" => Sandbox
+| "my.owngateway.com" => Live
+| "sandox.owngateway.com" => Sandbox
 | _ => hostName->String.includes("netlify") ? Netlify : Local
 }
 

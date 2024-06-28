@@ -73,11 +73,11 @@ describe("Sandbox quick start", () => {
     fillInputFields("merchant_name", "quick_start_flow_test");
     cy.contains("Quick Start");
     cy.contains(
-      "Configure and start using Hyperswitch to get an overview of our offerings and how hyperswitch can help you control your payments",
+      "Configure and start using OwnGateway to get an overview of our offerings and how owngateway can help you control your payments",
     );
     clickButton("startExploring");
     clickButton("getStartedNow");
-    cy.contains("How would you like to configure Hyperswitch?");
+    cy.contains("How would you like to configure OwnGateway?");
     customComponentButtonType("MultipleProcessorWithSmartRouting");
     clickButton("proceed");
 

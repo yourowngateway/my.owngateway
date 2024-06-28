@@ -1,4 +1,4 @@
-git clone https://github.com/juspay/hyperswitch
+git clone https://github.com/yourowngateway/owngateway
 
 curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 # Navigate to the cloned directory
