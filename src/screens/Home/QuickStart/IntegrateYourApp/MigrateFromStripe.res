@@ -87,7 +87,7 @@ let make = (
     | ReplaceAPIKeys =>
       <div className="flex flex-col gap-10">
         <div className="text-grey-50">
-          {"Call loadHyper() with your Hyperswitch publishable key to configure the SDK library, from your website.This will load and invoke the Hyperswitch Checkout experience instead of the Stripe UI Elements."->React.string}
+          {"Call loadHyper() with your OwnGateway publishable key to configure the SDK library, from your website.This will load and invoke the OwnGateway Checkout experience instead of the Stripe UI Elements."->React.string}
         </div>
         <div className="flex flex-col gap-2">
           <div className="text-grey-900 font-medium"> {"Publishable Key"->React.string} </div>
@@ -111,7 +111,7 @@ let make = (
     | ReconfigureCheckout =>
       <div className="flex flex-col gap-10">
         <div className="text-grey-50">
-          {"Reconfigure checkout form to import from Hyperswitch. This will import the Hyperswitch unified checkout dependencies."->React.string}
+          {"Reconfigure checkout form to import from OwnGateway. This will import the OwnGateway unified checkout dependencies."->React.string}
         </div>
         <div className="flex flex-col gap-2">
           <div className="text-grey-900 font-medium"> {"Publishable Key"->React.string} </div>
@@ -135,7 +135,7 @@ let make = (
     | LoadCheckout =>
       <div className="flex flex-col gap-10">
         <div className="text-grey-50">
-          {"Call loadHyper() with your Hyperswitch publishable key to configure the SDK library, from your website.This will load and invoke the Hyperswitch Checkout experience instead of the Stripe UI Elements."->React.string}
+          {"Call loadHyper() with your OwnGateway publishable key to configure the SDK library, from your website.This will load and invoke the OwnGateway Checkout experience instead of the Stripe UI Elements."->React.string}
         </div>
         <div className="flex flex-col gap-2">
           <div className="text-grey-900 font-medium"> {"Publishable Key"->React.string} </div>

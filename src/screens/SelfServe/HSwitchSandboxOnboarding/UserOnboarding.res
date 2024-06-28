@@ -56,7 +56,7 @@ module DefaultDocsPage = {
   let make = () => {
     <div className="flex flex-col gap-12 p-8">
       <UserOnboardingUIUtils.Section
-        sectionHeaderText="Integrate Hyperswitch"
+        sectionHeaderText="Integrate OwnGateway"
         sectionSubText="Start by cloning a project or Integrating from scratch"
         subSectionArray=integrateHyperswitch
       />

@@ -124,7 +124,7 @@ let routingPayload = (profileId, routingData1: routingData, routingData2: routin
     payload,
     "volume_split",
     "Initial volume based routing setup",
-    "Volume based routing pre-configured by Hyperswitch",
+    "Volume based routing pre-configured by OwnGateway",
     profileId,
   )->JSON.Encode.object
 }

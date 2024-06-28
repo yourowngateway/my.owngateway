@@ -61,7 +61,7 @@ let make = () => {
         <div className="flex items-center gap-3">
           <Icon size=40 name="group-users-without-circle" />
           <div>
-            {`You've been invited to the Hyperswitch dashboard by `->React.string}
+            {`You've been invited to the OwnGateway dashboard by `->React.string}
             <span className="font-bold">
               {merchantValueatZeroIndex.merchant_name->React.string}
             </span>
@@ -111,7 +111,7 @@ let make = () => {
                   <div className="flex items-center gap-3">
                     <Icon size=40 name="group-users-without-circle" />
                     <div>
-                      {`You've been invited to the Hyperswitch dashboard by `->React.string}
+                      {`You've been invited to the OwnGateway dashboard by `->React.string}
                       <span className="font-bold"> {ele.merchant_name->React.string} </span>
                     </div>
                   </div>

@@ -230,7 +230,7 @@ post '/create-payment' do
 
   data = JSON.parse(request.body.read)
 
-  # If you have two or more “business_country” + “business_label” pairs configured in your Hyperswitch dashboard,
+  # If you have two or more “business_country” + “business_label” pairs configured in your OwnGateway dashboard,
   # please pass the fields business_country and business_label in this request body.
   # For accessing more features, you can check out the request body schema for payments-create API here :
   # https://api-reference.hyperswitch.io/docs/hyperswitch-api-reference/60bae82472db8-payments-create
@@ -283,7 +283,7 @@ public class server {
       response.type("application/json");
 
       /*
-        If you have two or more “business_country” + “business_label” pairs configured in your Hyperswitch dashboard,
+        If you have two or more “business_country” + “business_label” pairs configured in your OwnGateway dashboard,
         please pass the fields business_country and business_label in this request body.
         For accessing more features, you can check out the request body schema for payments-create API here :
         https://api-reference.hyperswitch.io/docs/hyperswitch-api-reference/60bae82472db8-payments-create
@@ -373,7 +373,7 @@ def create_payment():
   try:
     conn = http.client.HTTPSConnection("sandbox.hyperswitch.io")
 
-    # If you have two or more “business_country” + “business_label” pairs configured in your Hyperswitch dashboard,
+    # If you have two or more “business_country” + “business_label” pairs configured in your OwnGateway dashboard,
     # please pass the fields business_country and business_label in this request body.
     # For accessing more features, you can check out the request body schema for payments-create API here :
     # https://api-reference.hyperswitch.io/docs/hyperswitch-api-reference/60bae82472db8-payments-create
@@ -448,7 +448,7 @@ namespace HyperswitchExample
         string HYPER_SWITCH_API_BASE_URL = "https://sandbox.hyperswitch.io/payments";
 
         /*
-          If you have two or more “business_country” + “business_label” pairs configured in your Hyperswitch dashboard,
+          If you have two or more “business_country” + “business_label” pairs configured in your OwnGateway dashboard,
           please pass the fields business_country and business_label in this request body.
           For accessing more features, you can check out the request body schema for payments-create API here :
           https://api-reference.hyperswitch.io/docs/hyperswitch-api-reference/60bae82472db8-payments-create
@@ -554,7 +554,7 @@ try {
     $jsonObj = json_decode($jsonStr);
 
     /*
-        If you have two or more “business_country” + “business_label” pairs configured in your Hyperswitch dashboard,
+        If you have two or more “business_country” + “business_label” pairs configured in your OwnGateway dashboard,
         please pass the fields business_country and business_label in this request body.
         For accessing more features, you can check out the request body schema for payments-create API here :
         https://api-reference.hyperswitch.io/docs/hyperswitch-api-reference/60bae82472db8-payments-create
@@ -609,7 +609,7 @@ const HYPER_SWITCH_API_BASE_URL = "https://sandbox.hyperswitch.io"
 func createPaymentHandler(w http.ResponseWriter, r *http.Request) {
 	
 	/*
-		If you have two or more “business_country” + “business_label” pairs configured in your Hyperswitch dashboard,
+		If you have two or more “business_country” + “business_label” pairs configured in your OwnGateway dashboard,
 		please pass the fields business_country and business_label in this request body.
 		For accessing more features, you can check out the request body schema for payments-create API here :
 		https://api-reference.hyperswitch.io/docs/hyperswitch-api-reference/60bae82472db8-payments-create
@@ -718,7 +718,7 @@ app.post("/create-payment", async (req, res) => {
   const { items } = req.body;
 
   /*
-     If you have two or more "business_country" + "business_label" pairs configured in your Hyperswitch dashboard,
+     If you have two or more "business_country" + "business_label" pairs configured in your OwnGateway dashboard,
      please pass the fields business_country and business_label in this request body.
      For accessing more features, you can check out the request body schema for payments-create API here :
      https://api-reference.hyperswitch.io/docs/hyperswitch-api-reference/60bae82472db8-payments-create

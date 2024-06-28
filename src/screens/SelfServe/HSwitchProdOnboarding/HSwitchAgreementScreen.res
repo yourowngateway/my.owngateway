@@ -108,7 +108,7 @@ let make = () => {
       <div className="flex flex-col gap-5 bg-white px-20 pb-10 w-full h-full overflow-hidden">
         <div className="flex justify-between items-center flex-wrap gap-2">
           <div className="font-semibold text-xl">
-            {"Hyperswitch Service Agreement"->React.string}
+            {"OwnGateway Service Agreement"->React.string}
           </div>
           <ToolTip
             description={"Please read to the bottom of this Service Agreement before you can continue"}

@@ -327,7 +327,7 @@ let make = (~selectedConnector, ~pageView, ~setPageView, ~setConnectorID) => {
     | SETUP_WEBHOOK_PROCESSOR =>
       <ProdOnboardingUIUtils.SetupWebhookProcessor
         connectorName
-        headerSectionText="Hyperswitch Webhook Endpoint"
+        headerSectionText="OwnGateway Webhook Endpoint"
         subtextSectionText="Configure this endpoint in the processors dashboard under webhook settings for us to receive events"
         customRightSection={<HelperComponents.KeyAndCopyArea
           copyValue={getWebhooksUrl(~connectorName, ~merchantId)}

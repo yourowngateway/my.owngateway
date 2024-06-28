@@ -655,7 +655,7 @@ let getTabsForIntegration = (
           </TabsContentWrapper>,
       },
       {
-        title: "5. Load HyperSwitch Checkout",
+        title: "5. Load OwnGateway Checkout",
         renderContent: () =>
           <TabsContentWrapper currentRoute tabIndex customUi={<PublishableKeyArea />}>
             <DiffCodeEditor

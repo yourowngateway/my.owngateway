@@ -5,7 +5,7 @@
 # changelog header
 header = """
 # Changelog\n
-All notable changes to Hyperswitch Control Center will be documented here.\n
+All notable changes to OwnGateway Control Center will be documented here.\n
 """
 # template for the changelog body
 # https://tera.netlify.app/docs/#introduction

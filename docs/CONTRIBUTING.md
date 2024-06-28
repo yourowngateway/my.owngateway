@@ -1,6 +1,6 @@
 # Contributing
 
-We welcome contributions from the community! If you would like to contribute to Hyperswitch, please follow our contribution guidelines.
+We welcome contributions from the community! If you would like to contribute to OwnGateway, please follow our contribution guidelines.
 
 ### Commit Conventions
 

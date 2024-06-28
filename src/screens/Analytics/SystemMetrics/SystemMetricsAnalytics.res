@@ -193,10 +193,10 @@ module HSiwtchPaymentConfirmLatency = {
             <div
               className={"flex gap-2 items-center pt-4 text-jp-gray-700 font-bold self-start h-1/2"}>
               <div className="font-semibold text-base text-black dark:text-white">
-                {"Hyperswitch overhead for payment confirm"->React.string}
+                {"OwnGateway overhead for payment confirm"->React.string}
               </div>
               <ToolTip
-                description="Average time added by the Hyperswitch application to the overall Payments Confirm API latency"
+                description="Average time added by the OwnGateway application to the overall Payments Confirm API latency"
                 toolTipFor={<div className="cursor-pointer">
                   <Icon name="info-vacent" size=13 />
                 </div>}

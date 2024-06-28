@@ -477,7 +477,7 @@ let make = (
                       selectedConnector
                       isLabelNested=false
                       disabled={isUpdateFlow ? true : false}
-                      description="This is an unique label you can generate and pass in order to identify this connector account on your Hyperswitch dashboard and reports. Eg: if your profile label is 'default', connector label can be 'stripe_default'"
+                      description="This is an unique label you can generate and pass in order to identify this connector account on your OwnGateway dashboard and reports. Eg: if your profile label is 'default', connector label can be 'stripe_default'"
                     />
                   </div>
                   <ConnectorAccountDetailsHelper.BusinessProfileRender
@@ -505,7 +505,7 @@ let make = (
       <div className="bg-jp-gray-light_gray_bg flex py-4 px-10 gap-2">
         <img src="/assets/PayPalFullLogo.svg" />
         <p className=p2RedularTextClass>
-          {"| Hyperswitch is PayPal's trusted partner, your credentials are secure & never stored with us."->React.string}
+          {"| OwnGateway is PayPal's trusted partner, your credentials are secure & never stored with us."->React.string}
         </p>
       </div>
     </PageLoaderWrapper>

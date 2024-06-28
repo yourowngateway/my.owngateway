@@ -48,12 +48,12 @@ let connectorChoiceVariantToString = variantValue =>
 let connectorChoiceArray: array<landingChoiceType> = [
   {
     displayText: "Single Payment Processor",
-    description: "Connect any one processor and test a payment with Hyperswitch Checkout",
+    description: "Connect any one processor and test a payment with OwnGateway Checkout",
     variantType: #SinglePaymentProcessor,
   },
   {
     displayText: "Multiple processors with Smart Routing",
-    description: "Connect a primary and secondary processor, define smart routing rules and test a payment with Hyperswitch Checkout",
+    description: "Connect a primary and secondary processor, define smart routing rules and test a payment with OwnGateway Checkout",
     variantType: #MultipleProcessorWithSmartRouting,
   },
 ]
@@ -107,7 +107,7 @@ let integrateYourAppArray: array<landingChoiceType> = [
   },
   {
     displayText: "Standard Integration",
-    description: "Integrate Hyperswitch into your app with four simple steps",
+    description: "Integrate OwnGateway into your app with four simple steps",
     variantType: #StandardIntegration,
     footerTags: ["Code required", "Supports all platforms"],
     leftIcon: "hyperswitch-logo-short",
@@ -257,10 +257,10 @@ let getStatusFromString = statusString => {
 
 let sidebarTextBasedOnVariant = choiceState =>
   switch choiceState {
-  | #MigrateFromStripe => "Hyperswitch For Stripe Users"
+  | #MigrateFromStripe => "OwnGateway For Stripe Users"
   | #StandardIntegration => "Standard integration"
   | #WooCommercePlugin => "Woocommerce plugin"
-  | _ => "Hyperswitch For Stripe Users"
+  | _ => "OwnGateway For Stripe Users"
   }
 
 let getSidebarOptionsForIntegrateYourApp: (
@@ -315,7 +315,7 @@ let getSidebarOptionsForIntegrateYourApp: (
           status: enumValue.reconfigureCheckout->getStatusFromString,
         },
         {
-          title: "Load Hyperswitch Checkout",
+          title: "Load OwnGateway Checkout",
           status: enumValue.loadCheckout->getStatusFromString,
         },
       ],
@@ -348,7 +348,7 @@ let getSidebarOptionsForIntegrateYourApp: (
           status: enumValue.createPayment->getStatusFromString,
         },
         {
-          title: "Display Hyperswitch Checkout",
+          title: "Display OwnGateway Checkout",
           status: enumValue.displayCheckout->getStatusFromString,
         },
         {
@@ -463,7 +463,7 @@ let getSidebarOptionsForConnectProcessor: (
         link: "/quick-start",
       },
       {
-        title: "Try hyperswitch checkout",
+        title: "Try OwnGateway checkout",
         status: String(enumValue.testPayment.payment_id)->getStatusValue(
           #TestPayment,
           currentPageStateEnum,
@@ -486,7 +486,7 @@ let getSidebarOptionsForConnectProcessor: (
         link: "/quick-start",
       },
       {
-        title: "Try hyperswitch checkout",
+        title: "Try OwnGateway checkout",
         status: String(enumValue.testPayment.payment_id)->getStatusValue(
           #TestPayment,
           currentPageStateEnum,

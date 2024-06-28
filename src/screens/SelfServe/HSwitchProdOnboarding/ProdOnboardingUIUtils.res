@@ -32,16 +32,16 @@ module ModalChildElementsForSpecificConnector = {
             {"Create a new webhook by clicking on Add an endpoint."->React.string}
           </li>
           <li className="mb-8">
-            {"Enter the Hyperswitch url under the Endpoint URL: https://sandbox.hyperswitch.io/webhooks/{{Your_Hyperswitch_Merchant_ID}}/stripe"->React.string}
+            {"Enter the OwnGateway url under the Endpoint URL: https://sandbox.hyperswitch.io/webhooks/{{Your_Hyperswitch_Merchant_ID}}/stripe"->React.string}
             <span>
-              {"Note: You can Find your Set Country and Label in Hyperswitch under Connectors -> Processors -> Stripe"->React.string}
+              {"Note: You can Find your Set Country and Label in OwnGateway under Connectors -> Processors -> Stripe"->React.string}
             </span>
           </li>
           <li className="mb-8">
-            {"Note: Hyperswitch currently does not support source verification."->React.string}
+            {"Note: OwnGateway currently does not support source verification."->React.string}
           </li>
         </ol>
-        <div> {"Steps to Follow on Hyperswitch Dashboard : "->React.string} </div>
+        <div> {"Steps to Follow on OwnGateway Dashboard : "->React.string} </div>
         <ol className="list-decimal pl-4">
           <li className="mb-8"> {"Under Developers Tab > Webhooks"->React.string} </li>
           <li className="mb-8">
@@ -50,7 +50,7 @@ module ModalChildElementsForSpecificConnector = {
           <li className="mb-8"> {"Click Update"->React.string} </li>
         </ol>
         <div className="italic">
-          {"Congratulations! You have successfully configured with Stripe via Hyperswitch. Now in order to test the integration you can follow one of the following steps Test via Hyperswitch dashboard"->React.string}
+          {"Congratulations! You have successfully configured with Stripe via OwnGateway. Now in order to test the integration you can follow one of the following steps Test via OwnGateway dashboard"->React.string}
         </div>
       </>
     | _ => React.null

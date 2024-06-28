@@ -17,5 +17,5 @@ ci = { changelog_title = "Continuous Integration", omit_from_changelog = true }
 path = "CHANGELOG.md"
 template = ".github/cocogitto-changelog-template"
 remote = "github.com"
-owner = "juspay"
-repository = "hyperswitch-control-center"
+owner = "yourowngateway"
+repository = "owngateway-control-center"

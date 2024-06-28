@@ -111,7 +111,7 @@ let getStatData = (
     }
   | ApiCount => {
       title: "API Count",
-      tooltipText: "API request count is the tally of requests made to the Hyperswitch APIs, reflecting the volume of interactions and usage during a defined timeframe.",
+      tooltipText: "API request count is the tally of requests made to the OwnGateway APIs, reflecting the volume of interactions and usage during a defined timeframe.",
       deltaTooltipComponent: AnalyticsUtils.singlestatDeltaTooltipFormat(
         singleStatData.api_count->Int.toFloat,
         deltaTimestampData.currentSr,

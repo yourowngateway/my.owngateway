@@ -24,7 +24,7 @@ let getStringFromVariant = key => {
 let businessName = FormRenderer.makeFieldInfo(
   ~label="Legal Business Name",
   ~name=BusinessName->getStringFromVariant,
-  ~placeholder="Eg: HyperSwitch Pvt Ltd",
+  ~placeholder="Eg: OwnGateway Pvt Ltd",
   ~customInput=InputFields.textInput(),
   ~isRequired=true,
   (),

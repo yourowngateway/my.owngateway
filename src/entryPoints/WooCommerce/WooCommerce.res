@@ -8,7 +8,7 @@ module BaseComponent = {
   @react.component
   let make = (~handleNavigation, ~children) => {
     <QuickStartUIUtils.BaseComponent
-      headerText="Hyperswitch for Woocommerce"
+      headerText="OwnGateway for Woocommerce"
       headerLeftIcon="hyperswitch-logo-short"
       nextButton={<Button
         text="Continue"
@@ -41,7 +41,7 @@ module InstallPlugin = {
         <div className="bg-gray-50 rounded border p-8 flex flex-col gap-6">
           <div>
             <h2 className="text-xl font-medium">
-              {"Hyperswitch's Checkout Plugin"->React.string}
+              {"OwnGateway's Checkout Plugin"->React.string}
             </h2>
             <p className="text-gray-500">
               {"Use this plugin to get the best checkout experience"->React.string}
@@ -120,7 +120,7 @@ module ConfigurePlugin = {
                 <div className="col-span-2">
                   <div className="font-medium"> {"Payment Response Hash Key"->React.string} </div>
                   <div className="text-gray-500 mt-2">
-                    {"This helps to authenticate and verify live events send by Hyperswitch."->React.string}
+                    {"This helps to authenticate and verify live events send by OwnGateway."->React.string}
                   </div>
                 </div>
                 <UserOnboardingUIUtils.PaymentResponseHashKeyArea />
@@ -147,7 +147,7 @@ module ConfigureWebHook = {
                 {"1"->React.string}
               </div>
               <h2 className="font-medium">
-                {"Enable Hyperswitch Webhook in “Enable Webhook” Section (Ignore if enabled)"->React.string}
+                {"Enable OwnGateway Webhook in “Enable Webhook” Section (Ignore if enabled)"->React.string}
               </h2>
             </div>
             <div
@@ -304,7 +304,7 @@ let make = () => {
 
   <div className="flex bg-blue-background_blue">
     <HSSelfServeSidebar
-      heading={"Hyperswitch for Woocommerce"}
+      heading={"OwnGateway for Woocommerce"}
       sidebarOptions={enumDetails->getSidebarOptionsForWooCommerceIntegration(stepInView)}
     />
     <div className="flex-1 flex flex-col items-center justify-center ml-12">

@@ -45,7 +45,7 @@ let make = (~merchantData, ~acceptInviteOnClick, ~onClickLoginToDashboard) => {
               <div className="flex items-center gap-5">
                 <Icon size=40 name="group-users" />
                 <div>
-                  {`You've been invited to the Hyperswitch dashboard by `->React.string}
+                  {`You've been invited to the OwnGateway dashboard by `->React.string}
                   <span className="font-bold">
                     {{merchantName->String.length > 0 ? merchantName : merchantId}->React.string}
                   </span>

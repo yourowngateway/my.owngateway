@@ -22,24 +22,24 @@ let getContentBasedOnIndex = (~currentRoute, ~tabIndex) =>
   | MigrateFromStripe =>
     switch tabIndex {
     | 0 => "Start by downloading your Test API Key and keeping it handy."
-    | 1 => "Install Hyperswitch's SDK and server side dependencies from npm.This is to add Hyperswitch dependencies to your application, along with your existing Stripe dependencies."
-    | 2 => "Replace the Stripe API key with Hyperswitch API key on the server side and modify the endpoint for the payment intent API.So, the Payment Intent API call previously being made to Stripe server will now be routed to Hyperswitch server."
-    | 3 => "Reconfigure checkout form to import from Hyperswitch.This will import the Hyperswitch Unified checkout dependencies."
-    | 4 => "Call loadHyper() with you Hyperswitch publishable key to configure the SDK library, from your website.This will load and invoke the Hyperswitch Checkout experience instead of the Stripe UI Elements."
+    | 1 => "Install OwnGateway's SDK and server side dependencies from npm.This is to add OwnGateway dependencies to your application, along with your existing Stripe dependencies."
+    | 2 => "Replace the Stripe API key with OwnGateway API key on the server side and modify the endpoint for the payment intent API.So, the Payment Intent API call previously being made to Stripe server will now be routed to OwnGateway server."
+    | 3 => "Reconfigure checkout form to import from OwnGateway.This will import the OwnGateway Unified checkout dependencies."
+    | 4 => "Call loadHyper() with you OwnGateway publishable key to configure the SDK library, from your website.This will load and invoke the OwnGateway Checkout experience instead of the Stripe UI Elements."
     | _ => ""
     }
   | IntegrateFromScratch =>
     switch tabIndex {
     | 0 => "Start by downloading your Test API Key and keeping it handy."
     | 1 => "Once your customer is ready to pay, create a payment from your server to establish the intent of the customer to start payment."
-    | 2 => "Open the Hyperswitch checkout for your user inside an iFrame to display the payment methods."
+    | 2 => "Open the OwnGateway checkout for your user inside an iFrame to display the payment methods."
     | 3 => "Handle the response and display the thank you page to the user."
     | _ => ""
     }
   | WooCommercePlugin =>
     switch tabIndex {
-    | 0 => "Start by downloading the Hyperswitch Checkout Plugin, and installing it on your WordPress Admin Dashboard. Activate the Plugin post installation."
-    | 1 => "Step 1. Navigate to Woocommerce > Settings section in the dashboard. Click on the \"Payments\" tab and you should be able to find Hyperswitch listed in the Payment Methods table. Click on \"Hyperswitch\" to land on the Hyperswitch Plugin Settings page."
+    | 0 => "Start by downloading the OwnGateway Checkout Plugin, and installing it on your WordPress Admin Dashboard. Activate the Plugin post installation."
+    | 1 => "Step 1. Navigate to Woocommerce > Settings section in the dashboard. Click on the \"Payments\" tab and you should be able to find OwnGateway listed in the Payment Methods table. Click on \"OwnGateway\" to land on the OwnGateway Plugin Settings page."
     | 2 => "Step 2. Generate an API Key and paste it in your WooCommerce Plugin Settings."
     | 3 => "Step 3. Copy your Publishable Key and paste it in your WooCommerce Plugin Settings."
     | 4 => "Step 4. Copy your Payment Response Hash Key and paste it in your WooCommerce Plugin Settings."
@@ -47,7 +47,7 @@ let getContentBasedOnIndex = (~currentRoute, ~tabIndex) =>
     | 6 => "Step 6. Save the changes"
     | 7 => "Step 1. Configure connector(s) and start accepting payments."
     | 8 => "Step 2. Configure a Routing Configuration to route payments to optimise your payment traffic across the various configured processors (only if you want to support multiple processors)"
-    | 9 => "Step 3. View and Manage your WooCommerce Order Payments on the Hyperswitch Dashboard."
+    | 9 => "Step 3. View and Manage your WooCommerce Order Payments on the OwnGateway Dashboard."
     | _ => ""
     }
   | _ => ""

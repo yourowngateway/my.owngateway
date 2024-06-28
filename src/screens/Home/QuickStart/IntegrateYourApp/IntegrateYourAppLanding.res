@@ -22,7 +22,7 @@ let make = (~integrateAppValue: integrateApp) => {
   let landingButtonGroup = {
     <div className="flex flex-col gap-4 w-full">
       <Button
-        text="I want to integrate Hyperswitch into my app"
+        text="I want to integrate OwnGateway into my app"
         buttonType={Primary}
         onClick={_ => {
           mixpanelEvent(~eventName=`quickstart_integration_landing`, ())

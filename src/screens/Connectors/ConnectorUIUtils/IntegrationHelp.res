@@ -22,7 +22,7 @@ module Render = {
           </li>
           <li className="mb-8">
             {React.string(
-              "Copy the Secret and Public keys and add them to the Hyperswitch dashboard under Stripe",
+              "Copy the Secret and Public keys and add them to the OwnGateway dashboard under Stripe",
             )}
           </li>
         </ol>
@@ -39,7 +39,7 @@ module Render = {
             </li>
             <li className="mb-4">
               {React.string(
-                "Currently, Hyperswitch supports the latest Payments Intent APIs of Stripe API that is created after 2019",
+                "Currently, OwnGateway supports the latest Payments Intent APIs of Stripe API that is created after 2019",
               )}
             </li>
             <li className="mb-4">
@@ -78,7 +78,7 @@ module Render = {
           </li>
           <li className="mb-4">
             {React.string(
-              "Copy the API key and Merchant Account ID and add them to the Hyperswitch dashboard under Adyen.",
+              "Copy the API key and Merchant Account ID and add them to the OwnGateway dashboard under Adyen.",
             )}
           </li>
         </ol>
@@ -107,11 +107,11 @@ module Render = {
           </li>
           <li className="mb-8">
             {React.string(
-              "Click on Update key (top-right). In the Processing channels section copy the Channel ID and add them to Hyperswitch dashboard under Checkout",
+              "Click on Update key (top-right). In the Processing channels section copy the Channel ID and add them to OwnGateway dashboard under Checkout",
             )}
           </li>
           <li className="mb-8">
-            {React.string("Use the Public key and Secret key generated during the creation of the Checkout's API key and add them to the Hyperswitch dashboard. 
+            {React.string("Use the Public key and Secret key generated during the creation of the Checkout's API key and add them to the OwnGateway dashboard. 
                 For the hint about the key Click on the Developer tab and navigate to Keys")}
           </li>
         </ol>

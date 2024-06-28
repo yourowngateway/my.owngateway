@@ -250,7 +250,7 @@ let make = (~showModal, ~setShowModal) => {
               },
               // TODO: Move this to prod onboarding form
               // {
-              //   title: "Hyperswitch details ",
+              //   title: "OwnGateway details ",
               //   renderContent: () => {
               //     <div>
               //       <FormRenderer.FieldRenderer

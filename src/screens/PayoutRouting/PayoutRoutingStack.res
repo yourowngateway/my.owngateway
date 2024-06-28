@@ -130,7 +130,7 @@ let make = (~remainingPath, ~previewOnly=false) => {
       <UIUtils.RenderIf condition={!previewOnly}>
         <div className="flex flex-col gap-12">
           <EntityScaffold
-            entityName="HyperSwitch Priority Logic"
+            entityName="OwnGateway Priority Logic"
             remainingPath
             renderList={() =>
               <Tabs
