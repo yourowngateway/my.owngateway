@@ -200,7 +200,7 @@ let make = (~connectProcessorValue: connectProcessor) => {
         <QuickStartUIUtils.LandingPageChoice
           choiceState
           setChoiceState
-          headerText="How would you like to configure Hyperswitch?"
+          headerText="How would you like to configure OwnGateway?"
           listChoices={connectorChoiceArray}
           nextButton={<Button
             buttonType=Primary

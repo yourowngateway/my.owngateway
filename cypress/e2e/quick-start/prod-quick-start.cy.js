@@ -115,7 +115,7 @@ describe("Prod quick start", () => {
     );
     cy.contains("Payment Response Hash Key");
     cy.contains(
-      "Download the provided key to authenticate and verify live events sent by Hyperswitch. Learn more",
+      "Download the provided key to authenticate and verify live events sent by OwnGateway. Learn more",
     );
     cy.get('input[name="webhookEndpoint"]').type("https://google.com");
     cy.get("[data-button-for=connectAndProceed]").click({ force: true });
