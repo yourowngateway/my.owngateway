@@ -31,7 +31,7 @@ module HyperSwitchEntryComponent = {
       try {
         open DOMUtils
         let a = createElement(DOMUtils.document, "link")
-        let _ = setAttribute(a, "href", `${faviconUrl->Option.getOr("/HyperswitchFavicon.png")}`)
+        let _ = setAttribute(a, "href", `${faviconUrl->Option.getOr("/OwngatewayFavicon.png")}`)
         let _ = setAttribute(a, "rel", "shortcut icon")
         let _ = setAttribute(a, "type", "image/x-icon")
         let _ = appendHead(a)
