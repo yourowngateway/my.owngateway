@@ -143,7 +143,7 @@ let make = () => {
             </p>
             <img className="h-8 w-8 mx-3" src={`/images/hyperswitchImages/WavingHandImage.svg`} />
           </div>
-          <p className="text-fs-20 font-medium "> {`Welcome to Hyperswitch`->React.string} </p>
+          <p className="text-fs-20 font-medium "> {`Welcome to OwnGateway`->React.string} </p>
         </div>
         <p className="text-fs-12 text-jp-grey-700 opacity-50 ">
           {`Help us know you better in 3 simple steps`->React.string}

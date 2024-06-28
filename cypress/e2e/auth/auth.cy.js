@@ -4,7 +4,7 @@ describe("Auth Module", () => {
     cy.visit("http://localhost:9000/");
     cy.get("#card-subtitle").click();
     cy.url().should("include", "/register");
-    cy.get("#card-header").should("contain", "Welcome to Hyperswitch");
+    cy.get("#card-header").should("contain", "Welcome to OwnGateway");
     cy.get("#card-subtitle").should("contain", "Sign in");
     cy.get("#auth-submit-btn").should("exist");
     cy.get("#tc-text").should("exist");
@@ -36,7 +36,7 @@ describe("Auth Module", () => {
     cy.visit("http://localhost:9000/");
     cy.get("#card-subtitle").click();
     cy.url().should("include", "/register");
-    cy.get("#card-header").should("contain", "Welcome to Hyperswitch");
+    cy.get("#card-header").should("contain", "Welcome to OwnGateway");
     cy.get("#card-subtitle").should("contain", "Sign in");
     cy.get("#card-subtitle").click();
     cy.url().should("include", "/login");

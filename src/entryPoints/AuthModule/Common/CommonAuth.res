@@ -55,7 +55,7 @@ module Header = {
 
     let cardHeaderText = switch authType {
     | LoginWithPassword | LoginWithEmail => "Hey there, Welcome back!"
-    | SignUP => "Welcome to Hyperswitch"
+    | SignUP => "Welcome to OwnGateway"
     | MagicLinkEmailSent
     | ForgetPasswordEmailSent
     | ResendVerifyEmailSent => "Please check your inbox"
@@ -118,7 +118,7 @@ module Header = {
       | LoginWithPassword | LoginWithEmail =>
         <UIUtils.RenderIf condition={signUpAllowed}>
           {getHeaderLink(
-            ~prefix="New to Hyperswitch?",
+            ~prefix="New to OwnGateway?",
             ~authType=SignUP,
             ~path="/register",
             ~sufix="Sign up",
@@ -127,7 +127,7 @@ module Header = {
 
       | SignUP =>
         getHeaderLink(
-          ~prefix="Already using Hyperswitch?",
+          ~prefix="Already using OwnGateway?",
           ~authType=isMagicLinkEnabled ? LoginWithEmail : LoginWithPassword,
           ~path=`/login?auth_id=${authId}`,
           ~sufix="Sign in",
