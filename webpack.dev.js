@@ -42,6 +42,7 @@ let devServer = {
   onBeforeSetupMiddleware: (devServer) => {
     devServer.app.use(configMiddleware);
   },
+  allowedHosts: 'all',
 };
 
 console.log(devServer);
