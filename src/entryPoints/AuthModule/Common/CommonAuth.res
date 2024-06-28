@@ -5,14 +5,14 @@ module TermsAndCondition = {
       {"By continuing, you agree to our "->React.string}
       <a
         className="underline cursor-pointer"
-        href="https://hyperswitch.io/terms-of-services"
+        href=""
         target="__blank">
         {"Terms of Service"->React.string}
       </a>
       {" & "->React.string}
       <a
         className="underline cursor-pointer"
-        href="https://hyperswitch.io/privacyPolicy"
+        href=""
         target="__blank">
         {"Privacy Policy"->React.string}
       </a>
@@ -27,8 +27,8 @@ module PageFooterSection = {
       className="justify-center text-base flex flex-col md:flex-row md:gap-3 items-center py-5 md:py-7">
       <div id="footer" className="flex items-center gap-2">
         {"An open-source initiative by "->React.string}
-        <a href="https://juspay.in/" target="__blank">
-          <img src={`/icons/juspay-logo-dark.svg`} className="h-3" />
+        <a href="https://owngateway.com/" target="__blank">
+          <img src={`/icons/owngatewayLogoIcon.png`} className="h-3" />
         </a>
       </div>
     </div>

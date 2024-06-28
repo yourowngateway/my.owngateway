@@ -22,8 +22,8 @@ let make = (
   }
 
   let iconImagePath = switch logoVariant {
-  | Icon => `/assets/${iconFolder}/hyperswitchLogoIcon.svg`
-  | Text => `/assets/${iconFolder}/hyperswitchLogoText.svg`
+  | Icon => `/assets/${iconFolder}/owngatewayLogoIcon.png`
+  | Text => `/assets/${iconFolder}/owngatewayLogoText.svg`
   | IconWithText => `/assets/${iconFolder}/owngatewayLogoIconWithText.svg`
   | IconWithURL => `${iconUrl->Option.getOr("")}`
   }
