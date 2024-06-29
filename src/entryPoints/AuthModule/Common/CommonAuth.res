@@ -5,14 +5,14 @@ module TermsAndCondition = {
       {"By continuing, you agree to our "->React.string}
       <a
         className="underline cursor-pointer"
-        href=""
+        href="https://owngateway.com/en/terms"
         target="__blank">
         {"Terms of Service"->React.string}
       </a>
       {" & "->React.string}
       <a
         className="underline cursor-pointer"
-        href=""
+        href="https://owngateway.com/en/privacy"
         target="__blank">
         {"Privacy Policy"->React.string}
       </a>
@@ -26,7 +26,7 @@ module PageFooterSection = {
     <div
       className="justify-center text-base flex flex-col md:flex-row md:gap-3 items-center py-5 md:py-7">
       <div id="footer" className="flex items-center gap-2">
-        {"An open-source initiative by "->React.string}
+        {"Copyright © 2024 OwnGatway. All rights reserved. "->React.string}
         <a href="https://owngateway.com/" target="__blank">
           <img src={`/icons/owngatewayLogoIcon.png`} className="h-3" />
         </a>
