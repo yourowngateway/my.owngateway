@@ -61,7 +61,7 @@ describe("Auth Module", () => {
         },
         features: {
           test_live_toggle: false,
-          is_live_mode: false,
+          is_live_mode: true,
           email: true,
           quick_start: false,
           audit_trail: false,
