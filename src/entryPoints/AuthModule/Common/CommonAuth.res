@@ -26,7 +26,7 @@ module PageFooterSection = {
     <div
       className="justify-center text-base flex flex-col md:flex-row md:gap-3 items-center py-5 md:py-7">
       <div id="footer" className="flex items-center gap-2">
-        {"Copyright © 2024 OwnGatway. All rights reserved. "->React.string}
+        {"Copyright © 2024 OwnGateway. All rights reserved. "->React.string}
         <a href="https://owngateway.com/" target="__blank">
           <img src={`/icons/owngatewayLogoIcon.png`} className="h-3" />
         </a>
