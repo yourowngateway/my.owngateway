@@ -66,7 +66,7 @@ let getTypeOfConfigurationArray: ConnectorTypes.connectorTypes => array<
   let testAPIDescription = switch selectedConnector {
   | Processors(STRIPE) | Processors(PAYPAL) =>
     `We've got you covered. Try connecting with our test processor modeled like ${connectorName} to continue your setup.`
-  | _ => "We've got you covered. Try connecting with one of Hyperswitch's test processor to continue your setup."
+  | _ => "We've got you covered. Try connecting with one of OwnGateway's test processor to continue your setup."
   }
   [
     {
