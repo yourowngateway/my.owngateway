@@ -28,6 +28,7 @@ let make = () => {
     }
   }
 
+  showToast(~toastType=ToastError, ~message=Window.env.agreementUrl->Option.getOr(""), ())
   Console.log2("Agreement URL: ", Window.env.agreementUrl)
 
   let downloadURL = Window.env.agreementUrl->Option.getOr("")
