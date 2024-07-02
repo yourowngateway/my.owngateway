@@ -51,7 +51,9 @@ module HyperSwitchEntryComponent = {
           faviconUrl: dict->getString("favicon_url", "")->getNonEmptyString,
           logoUrl: dict->getString("logo_url", "")->getNonEmptyString,
           sdkBaseUrl: dict->getString("sdk_url", "")->getNonEmptyString,
-          agreementUrl: dict->getString("agreement_url", "/TermsAndConditions.pdf")->getNonEmptyString,
+          agreementUrl: dict
+          ->getString("agreement_url", "/TermsAndConditions.pdf")
+          ->getNonEmptyString,
           applePayCertificateUrl: dict
           ->getString("apple_pay_certificate_url", "")
           ->getNonEmptyString,
